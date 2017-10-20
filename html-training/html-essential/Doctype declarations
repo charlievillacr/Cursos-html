@@ -1,0 +1,28 @@
+
+<!--HTML Doc Elements: DOCTYPE DECLARATION-->
+<!doctype html>
+
+<!--HTML Elements: HTML ATTRIBUTE & AND LANGUAGE-->
+<html lang="en">
+
+<!--HTML Elements: DOCUMENT HEAD-->
+  <head>
+    <!--HTML Doc Elements: CHARACTER SET= Caracter Encoding UTF-8 -->
+    <meta charset="utf-8">
+
+    <!--HTML Elements: Name & Conten. Useful for for search engine results.-->
+    <meta name="description"  content="A page for exploring HTML documents">
+
+    <!--HTML Elements: Title of the page-->
+    <title> Basic HTML document</title>
+  </head>
+    <!--HTML Elements: Title of the page-->
+  <body>
+      <h1>Page content</h1>
+      <p>The main page content appears inside the <b>body</b> tag. HTML contains several elements that allow you to properly structure and format your content which we'll cover later<p>
+  </body>
+
+
+
+
+</html>
