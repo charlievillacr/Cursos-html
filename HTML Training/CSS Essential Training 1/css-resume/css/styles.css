@@ -1,0 +1,186 @@
+/* Color Palette
+#2B2D4 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+/* Global styles
+--------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: lightgray;
+  font-family: 'Mandali', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Suez One', serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 180px;
+}
+.container {
+  width: 30%;
+  float: left;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.btn {
+  text-decoration: none;
+  background: #92233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;;
+}
+.name {
+}
+
+/* Header and Footer
+--------------------*/
+header, footer {
+  background: #2B2D42;
+  color: #8D99AE;
+}
+
+/* header */
+header {
+  padding-top: 70px;
+  position: relative;
+}
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  }
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  text-align: center;
+  background: #92233C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a{
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  font-size: 100%;
+}
+
+/*  Work Exprience
+--------------------*/
+.work {
+  background: #EDF2F4;
+}
+
+
+/*  Education
+--------------------*/
+.education {
+  background: linear-gradient(rgba(255, 248, 220, 0.5), rgba(255, 255, 255, 0.7)),
+              url(../images/vista01.jpg)  no-repeat;
+  background-size: cover;
+}
+
+/*  Education
+--------------------*/
+
+/*  Media Queries
+--------------------*/
+
+@media only screen and (max-width: 640px) {
+
+h1 {
+  font-size: 2em;
+   }
+
+h2 {
+  font-size: 1.2em;
+    }
+.col-narrow {
+      width: 30%;
+      min-height: 300px;
+    }
+.col-wide {
+    width: 70%;
+    min-height: 300px;
+    }
+.container {
+      width: 60%;
+      float: left;
+    }
+.profile-img {
+      border-radius: 50%;
+      width: 100%;
+      }
+}
+
+@media only screen and (min-width: 320px) {
+
+nav a {
+  font-size: 0.7em;
+  }
+
+  }
